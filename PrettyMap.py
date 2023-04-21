@@ -16,7 +16,7 @@ submit = form.form_submit_button("Submit")
 if submit:
     try:
         with st.spinner(f'Building a map of {p_name}.. Hold On...'):
-                fig, ax = plt.subplots(figsize = (13, 13))
+                fig, ax = plt.subplots(figsize = (13, 13), constrained_layout = True)
                 figure = plot(
                     place,
                     circle = circle,
