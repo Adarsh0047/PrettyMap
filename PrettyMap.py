@@ -27,7 +27,7 @@ if submit:
                 ax.set_title(
                 p_name,
                 fontproperties = FontProperties(
-                fname = 'PermanentMarker-Regular.ttf',
+                
                     size = 50
                 )
                 )
