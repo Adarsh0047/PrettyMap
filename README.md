@@ -1,7 +1,17 @@
 # PrettyMap
 
-A mapping and map-visualization project.
+A Streamlit app that creates a styled map image for a place the user enters.
 
-## About
+## Features
 
-This repository contains the source code for PrettyMap. The project files define the map data, rendering, and current functionality.
+- Choose a place and map radius.
+- Optionally render the map in a circle.
+- Add a title and download the generated JPEG.
+
+## Run locally
+
+Install the dependencies from `requirements.txt`, then run:
+
+```bash
+streamlit run PrettyMap.py
+```
